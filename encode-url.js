@@ -1,6 +1,6 @@
 /* cSpell:disable */
 const prefix = 'builden/drawio-diagram/main/';
-const url = prefix + 'philosophy/tao.drawio'; // <= Copy Relative Path
+const filePath = 'philosophy/tao.drawio'; // <= Copy Relative Path
 
-console.log('https://viewer.builden.tech/g/' + encodeURIComponent(url));
-// => https://viewer.builden.tech/g/builden%2Fdrawio-diagram%2Fmain%2Fphilosophy%2Ftao.drawio
+console.log('https://viewer.builden.tech/g/' + prefix + filePath);
+// => https://viewer.builden.tech/g/builden/drawio-diagram/main/philosophy/tao.drawio
